@@ -1,24 +1,25 @@
 # VoziCG
 
-VoziCG je Flask web aplikacija za pretragu i poređenje javno dostupnih rent-a-car ponuda u Crnoj Gori.
+VoziCG is a Flask web application for searching and comparing publicly available rent-a-car offers in Montenegro.
 
-Aplikacija pretražuje ponude sa sedam rent-a-car izvora:
+The application searches offers from seven rent-a-car providers:
 
-- SitnGo
-- Meridian Rent a Car
-- RentaCars.me
-- Driver Car Rent
-- GetCar.me / Adriatic
-- Terrae Car
-- Planet Rent a Car
+* SitnGo
+* Meridian Rent a Car
+* RentaCars.me
+* Driver Car Rent
+* GetCar.me / Adriatic
+* Terrae Car
+* Planet Rent a Car
 
-Prikupljene ponude se objedinjuju, filtriraju i sortiraju kako bi korisnik mogao jednostavno da uporedi dostupna vozila i cijene.
+The collected offers are consolidated, filtered, and sorted, allowing users to easily compare available vehicles and prices.
 
-## Pokretanje
+## Getting Started
 
-Za pokretanje aplikacije potrebno je imati instaliran Python i Google Chrome.
+To run the application, you need to have Python and Google Chrome installed.
 
-Otvoriti terminal u folderu projekta i instalirati potrebne biblioteke:
+Open a terminal in the project directory and install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
